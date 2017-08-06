@@ -1,0 +1,268 @@
+2017-08-06 16:17:38.829 電車賃of飯島[29112:5243422] Unknown class NSComboBox1 in Interface Builder file at path /Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/bin/Debug/電車賃of飯島.app/Contents/Resources/MainWindow.nib.
+2017-08-06 16:17:38.829 電車賃of飯島[29112:5243422] Unknown class NSComboBox2 in Interface Builder file at path /Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/bin/Debug/電車賃of飯島.app/Contents/Resources/MainWindow.nib.
+2017-08-06 16:17:38.830 電車賃of飯島[29112:5243422] -[NSButtonCell synchronizeTitleAndSelectedItem]: unrecognized selector sent to instance 0x6080000f4f80
+2017-08-06 16:17:38.845 電車賃of飯島[29112:5243422] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[NSButtonCell synchronizeTitleAndSelectedItem]: unrecognized selector sent to instance 0x6080000f4f80'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00007fffc845157b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x00007fffdd6951da objc_exception_throw + 48
+	2   CoreFoundation                      0x00007fffc84d1f14 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x00007fffc83c4c93 ___forwarding___ + 1059
+	4   CoreFoundation                      0x00007fffc83c47e8 _CF_forwarding_prep_0 + 120
+	5   AppKit                              0x00007fffc5e8febf -[NSIBObjectData instantiateObject:] + 363
+	6   AppKit                              0x00007fffc5e8f568 -[NSIBObjectData nibInstantiateWithOwner:options:topLevelObjects:] + 591
+	7   AppKit                              0x00007fffc5e86af0 loadNib + 375
+	8   AppKit                              0x00007fffc5e8603a +[NSBundle(NSNibLoading) _loadNibFile:nameTable:options:withZone:ownerBundle:] + 308
+	9   AppKit                              0x00007fffc60dfa46 +[NSBundle(NSNibLoadingInternal) _loadNibFile:externalNameTable:options:withZone:] + 150
+	10  AppKit                              0x00007fffc60df81d -[NSWindowController loadWindow] + 323
+	11  AppKit                              0x00007fffc5ed1cc9 -[NSWindowController window] + 84
+	12  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d0f9cc xamarin_dyn_objc_msgSendSuper + 220
+	13  ???                                 0x0000000106c85e96 0x0 + 4408762006
+	14  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100e03e84 mono_jit_runtime_invoke + 1316
+	15  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100ec97c8 do_runtime_invoke + 88
+	16  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100ec9740 mono_runtime_invoke + 208
+	17  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d0d225 xamarin_invoke_trampoline + 5589
+	18  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d0e35d xamarin_arch_trampoline + 189
+	19  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d0f721 xamarin_x86_64_common_trampoline + 110
+	20  CoreFoundation                      0x00007fffc83de54c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 12
+	21  CoreFoundation                      0x00007fffc83de44b _CFXRegistrationPost + 427
+	22  CoreFoundation                      0x00007fffc83de1b2 ___CFXNotificationPost_block_invoke + 50
+	23  CoreFoundation                      0x00007fffc839c782 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 2018
+	24  CoreFoundation                      0x00007fffc839b76b _CFXNotificationPost + 667
+	25  Foundation                          0x00007fffc9ddd907 -[NSNotificationCenter postNotificationName:object:userInfo:] + 66
+	26  AppKit                              0x00007fffc600374f -[NSApplication _postDidFinishNotification] + 297
+	27  AppKit                              0x00007fffc60034b4 -[NSApplication _sendFinishLaunchingNotification] + 208
+	28  AppKit                              0x00007fffc5ec6819 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:] + 552
+	29  AppKit                              0x00007fffc5ec646b -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:] + 661
+	30  Foundation                          0x00007fffc9e28d8d -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:] + 290
+	31  Foundation                          0x00007fffc9e28c07 _NSAppleEventManagerGenericHandler + 102
+	32  AE                                  0x00007fffc922cf26 _Z20aeDispatchAppleEventPK6AEDescPS_jPh + 544
+	33  AE                                  0x00007fffc922cc9d _ZL25dispatchEventAndSendReplyPK6AEDescPS_ + 39
+	34  AE                                  0x00007fffc922cba9 aeProcessAppleEvent + 312
+	35  HIToolbox                           0x00007fffc7939ddf AEProcessAppleEvent + 55
+	36  AppKit                              0x00007fffc5ec1d1d _DPSNextEvent + 1833
+	37  AppKit                              0x00007fffc663d7ee -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 2796
+	38  AppKit                              0x00007fffc5eb63db -[NSApplication run] + 926
+	39  AppKit                              0x00007fffc5e80e0e NSApplicationMain + 1237
+	40  ???                                 0x0000000104f0c84a 0x0 + 4377856074
+	41  ???                                 0x0000000104f0681d 0x0 + 4377831453
+	42  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100e03e84 mono_jit_runtime_invoke + 1316
+	43  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100ec97c8 do_runtime_invoke + 88
+	44  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100eccced do_exec_main_checked + 141
+	45  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d6992f mono_jit_exec + 287
+	46  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d6bf58 mono_main + 8696
+	47  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d10076 xamarin_main + 1046
+	48  ÈõªËªäË≥ÉofÈ£ØÂ≥∂                   0x0000000100d10d94 main + 36
+	49  libdyld.dylib                       0x00007fffddf76235 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+Stacktrace:
+
+  at <unknown> <0xffffffff>
+  at (wrapper managed-to-native) ObjCRuntime.Messaging.IntPtr_objc_msgSendSuper (intptr,intptr) [0x0000a] in <4854fe53020c4281a4c744206a36350a>:0
+  at AppKit.NSWindowController.get_Window () [0x0003a] in /Users/builder/data/lanes/4691/d2270eec/source/xamarin-macios/src/build/mac/mobile/AppKit/NSWindowController.g.cs:590
+  at 飯島の電車賃を測るアプリ.MainWindowController.get_Window () [0x00001] in /Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/MainWindowController.cs:29
+  at 飯島の電車賃を測るアプリ.AppDelegate.DidFinishLaunching (Foundation.NSNotification) [0x0000c] in /Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/AppDelegate.cs:18
+  at (wrapper runtime-invoke) <Module>.runtime_invoke_void__this___object (object,intptr,intptr,intptr) [0x00053] in <0b42ec56ddb74bf29881e9167c0d1c00>:0
+  at <unknown> <0xffffffff>
+  at (wrapper managed-to-native) AppKit.NSApplication.NSApplicationMain (int,string[]) [0x0005a] in <4854fe53020c4281a4c744206a36350a>:0
+  at AppKit.NSApplication.Main (string[]) [0x00041] in /Users/builder/data/lanes/4691/d2270eec/source/xamarin-macios/src/AppKit/NSApplication.cs:99
+  at 飯島の電車賃を測るアプリ.MainClass.Main (string[]) [0x00007] in /Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/Main.cs:16
+  at (wrapper runtime-invoke) <Module>.runtime_invoke_void_object (object,intptr,intptr,intptr) [0x00051] in <0b42ec56ddb74bf29881e9167c0d1c00>:0
+
+Native stacktrace:
+
+	0   電車賃of飯島                   0x0000000100df3bd5 mono_handle_native_crash + 277
+	1   libsystem_platform.dylib            0x00007fffde185b3a _sigtramp + 26
+	2   ???                                 0x00000003e6ec1240 0x0 + 16759132736
+	3   libsystem_c.dylib                   0x00007fffde00a420 abort + 129
+	4   libc++abi.dylib                     0x00007fffdcb6484a __cxa_bad_cast + 0
+	5   libc++abi.dylib                     0x00007fffdcb89c4f _ZL26default_unexpected_handlerv + 0
+	6   libobjc.A.dylib                     0x00007fffdd69733e _ZL15_objc_terminatev + 103
+	7   libc++abi.dylib                     0x00007fffdcb86d69 _ZSt11__terminatePFvvE + 8
+	8   libc++abi.dylib                     0x00007fffdcb867de _ZN10__cxxabiv1L22exception_cleanup_funcE19_Unwind_Reason_CodeP17_Unwind_Exception + 0
+	9   libobjc.A.dylib                     0x00007fffdd695303 objc_exception_throw + 345
+	10  電車賃of飯島                   0x0000000100d098b0 xamarin_process_nsexception_using_mode + 272
+	11  電車賃of飯島                   0x0000000100d09797 xamarin_process_nsexception + 23
+	12  電車賃of飯島                   0x0000000100d0f9fc xamarin_dyn_objc_msgSendSuper + 268
+	13  ???                                 0x0000000106c85e96 0x0 + 4408762006
+	14  電車賃of飯島                   0x0000000100e03e84 mono_jit_runtime_invoke + 1316
+	15  電車賃of飯島                   0x0000000100ec97c8 do_runtime_invoke + 88
+	16  電車賃of飯島                   0x0000000100ec9740 mono_runtime_invoke + 208
+	17  電車賃of飯島                   0x0000000100d0d225 xamarin_invoke_trampoline + 5589
+	18  電車賃of飯島                   0x0000000100d0e35d xamarin_arch_trampoline + 189
+	19  電車賃of飯島                   0x0000000100d0f721 xamarin_x86_64_common_trampoline + 110
+	20  CoreFoundation                      0x00007fffc83de54c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 12
+	21  CoreFoundation                      0x00007fffc83de44b _CFXRegistrationPost + 427
+	22  CoreFoundation                      0x00007fffc83de1b2 ___CFXNotificationPost_block_invoke + 50
+	23  CoreFoundation                      0x00007fffc839c782 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 2018
+	24  CoreFoundation                      0x00007fffc839b76b _CFXNotificationPost + 667
+	25  Foundation                          0x00007fffc9ddd907 -[NSNotificationCenter postNotificationName:object:userInfo:] + 66
+	26  AppKit                              0x00007fffc600374f -[NSApplication _postDidFinishNotification] + 297
+	27  AppKit                              0x00007fffc60034b4 -[NSApplication _sendFinishLaunchingNotification] + 208
+	28  AppKit                              0x00007fffc5ec6819 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:] + 552
+	29  AppKit                              0x00007fffc5ec646b -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:] + 661
+	30  Foundation                          0x00007fffc9e28d8d -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:] + 290
+	31  Foundation                          0x00007fffc9e28c07 _NSAppleEventManagerGenericHandler + 102
+	32  AE                                  0x00007fffc922cf26 _Z20aeDispatchAppleEventPK6AEDescPS_jPh + 544
+	33  AE                                  0x00007fffc922cc9d _ZL25dispatchEventAndSendReplyPK6AEDescPS_ + 39
+	34  AE                                  0x00007fffc922cba9 aeProcessAppleEvent + 312
+	35  HIToolbox                           0x00007fffc7939ddf AEProcessAppleEvent + 55
+	36  AppKit                              0x00007fffc5ec1d1d _DPSNextEvent + 1833
+	37  AppKit                              0x00007fffc663d7ee -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 2796
+	38  AppKit                              0x00007fffc5eb63db -[NSApplication run] + 926
+	39  AppKit                              0x00007fffc5e80e0e NSApplicationMain + 1237
+	40  ???                                 0x0000000104f0c84a 0x0 + 4377856074
+	41  ???                                 0x0000000104f0681d 0x0 + 4377831453
+	42  電車賃of飯島                   0x0000000100e03e84 mono_jit_runtime_invoke + 1316
+	43  電車賃of飯島                   0x0000000100ec97c8 do_runtime_invoke + 88
+	44  電車賃of飯島                   0x0000000100eccced do_exec_main_checked + 141
+	45  電車賃of飯島                   0x0000000100d6992f mono_jit_exec + 287
+	46  電車賃of飯島                   0x0000000100d6bf58 mono_main + 8696
+	47  電車賃of飯島                   0x0000000100d10076 xamarin_main + 1046
+	48  電車賃of飯島                   0x0000000100d10d94 main + 36
+	49  libdyld.dylib                       0x00007fffddf76235 start + 1
+
+Debug info from gdb:
+
+(lldb) command source -s 0 '/tmp/mono-gdb-commands.gR3eQr'
+Executing commands in '/tmp/mono-gdb-commands.gR3eQr'.
+(lldb) process attach --pid 29112
+Process 29112 stopped
+* thread #1, name = 'tid_307', queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
+    frame #0: 0x00007fffde0a53ee libsystem_kernel.dylib`__wait4 + 10
+libsystem_kernel.dylib`__wait4:
+->  0x7fffde0a53ee <+10>: jae    0x7fffde0a53f8            ; <+20>
+    0x7fffde0a53f0 <+12>: movq   %rax, %rdi
+    0x7fffde0a53f3 <+15>: jmp    0x7fffde09dcd4            ; cerror
+    0x7fffde0a53f8 <+20>: retq   
+
+Executable module set to "/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/bin/Debug/電車賃of飯島.app/Contents/MacOS/電車賃of飯島".
+Architecture set to: x86_64-apple-macosx.
+(lldb) thread list
+Process 29112 stopped
+* thread #1: tid = 0x50021e, 0x00007fffde0a53ee libsystem_kernel.dylib`__wait4 + 10, name = 'tid_307', queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
+  thread #2: tid = 0x500227, 0x00007fffde0a544e libsystem_kernel.dylib`__workq_kernreturn + 10
+  thread #3: tid = 0x500228, 0x00007fffde0a544e libsystem_kernel.dylib`__workq_kernreturn + 10
+  thread #4: tid = 0x500229, 0x00007fffde0a544e libsystem_kernel.dylib`__workq_kernreturn + 10
+  thread #5: tid = 0x500232, 0x00007fffde0a4bf2 libsystem_kernel.dylib`__psynch_cvwait + 10, name = 'SGen worker'
+  thread #6: tid = 0x500234, 0x00007fffde09d386 libsystem_kernel.dylib`semaphore_wait_trap + 10, name = 'Finalizer'
+  thread #7: tid = 0x500235, 0x00007fffde0a4df6 libsystem_kernel.dylib`__recvfrom + 10, name = 'Debugger agent'
+  thread #8: tid = 0x50024b, 0x00007fffde0a544e libsystem_kernel.dylib`__workq_kernreturn + 10
+(lldb) thread backtrace all
+* thread #1, name = 'tid_307', queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
+  * frame #0: 0x00007fffde0a53ee libsystem_kernel.dylib`__wait4 + 10
+    frame #1: 0x0000000100df3c6e 電車賃of飯島`mono_handle_native_crash(signal=<unavailable>, ctx=<unavailable>, info=<unavailable>) at mini-exceptions.c:2567 [opt]
+    frame #2: 0x00007fffde185b3a libsystem_platform.dylib`_sigtramp + 26
+    frame #3: 0x00007fffde0a4d43 libsystem_kernel.dylib`__pthread_kill + 11
+    frame #4: 0x00007fffde192457 libsystem_pthread.dylib`pthread_kill + 90
+    frame #5: 0x00007fffde00a420 libsystem_c.dylib`abort + 129
+    frame #6: 0x00007fffdcb6484a libc++abi.dylib`abort_message + 266
+    frame #7: 0x00007fffdcb89c4f libc++abi.dylib`default_terminate_handler() + 267
+    frame #8: 0x00007fffdd69733e libobjc.A.dylib`_objc_terminate() + 103
+    frame #9: 0x00007fffdcb86d69 libc++abi.dylib`std::__terminate(void (*)()) + 8
+    frame #10: 0x00007fffdcb867de libc++abi.dylib`__cxa_throw + 121
+    frame #11: 0x00007fffdd695303 libobjc.A.dylib`objc_exception_throw + 345
+    frame #12: 0x0000000100d098b0 電車賃of飯島`::xamarin_process_nsexception_using_mode(ns_exception=name: "NSInvalidArgumentException" - reason: "-[NSButtonCell synchronizeTitleAndSelectedItem]: unrecognized selector sent to instance 0x6080000f4f80", throwManagedAsDefault=false) at runtime.m:1993
+    frame #13: 0x0000000100d09797 電車賃of飯島`::xamarin_process_nsexception(ns_exception=name: "NSInvalidArgumentException" - reason: "-[NSButtonCell synchronizeTitleAndSelectedItem]: unrecognized selector sent to instance 0x6080000f4f80") at runtime.m:1967
+    frame #14: 0x0000000100d0f9fc 電車賃of飯島`xamarin_dyn_objc_msgSendSuper + 268
+    frame #15: 0x0000000106c85e96
+    frame #16: 0x0000000100e03e84 電車賃of飯島`mono_jit_runtime_invoke(method=<unavailable>, obj=<unavailable>, params=0x00007fff5ef100b0, exc=0x00007fffc6ae2fd8, error=<unavailable>) at mini-runtime.c:2533 [opt]
+    frame #17: 0x0000000100ec97c8 電車賃of飯島`do_runtime_invoke(method=0x00007f9eb3933628, obj=0x0000000101a5c6c0, params=0x00007fff5ef100b0, exc=0x0000000000000000, error=0x00007fff5ef10018) at object.c:2860 [opt]
+    frame #18: 0x0000000100ec9740 電車賃of飯島`mono_runtime_invoke [inlined] mono_runtime_invoke_checked(method=<unavailable>, obj=0x0000000101a5c6c0, params=0x00007fff5ef100b0, error=0x00007fff5ef10018) at object.c:3018 [opt]
+    frame #19: 0x0000000100ec9701 電車賃of飯島`mono_runtime_invoke(method=0x00007f9eb3933628, obj=0x0000000101a5c6c0, params=0x00007fff5ef100b0, exc=<unavailable>) at object.c:2917 [opt]
+    frame #20: 0x0000000100d0d225 電車賃of飯島`::xamarin_invoke_trampoline(type=Tramp_Default, self=0x000060000000ad30, sel="applicationDidFinishLaunching:", iterator=(電車賃of飯島`param_iter_next(IteratorAction, void*, char const*, unsigned long, void*, unsigned int*) at trampolines-x86_64.m:236), marshal_return_value=(電車賃of飯島`marshal_return_value(void*, char const*, unsigned long, void*, _MonoType*, bool, _MonoMethod*, unsigned int*) at trampolines-x86_64.m:302), context=0x00007fff5ef105b8) at trampolines-invoke.m:442
+    frame #21: 0x0000000100d0e35d 電車賃of飯島`::xamarin_arch_trampoline(state=0x00007fff5ef10600) at trampolines-x86_64.m:540
+    frame #22: 0x0000000100d0f721 電車賃of飯島`xamarin_x86_64_common_trampoline + 110
+    frame #23: 0x00007fffc83de54c CoreFoundation`__CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 12
+    frame #24: 0x00007fffc83de44b CoreFoundation`_CFXRegistrationPost + 427
+    frame #25: 0x00007fffc83de1b2 CoreFoundation`___CFXNotificationPost_block_invoke + 50
+    frame #26: 0x00007fffc839c782 CoreFoundation`-[_CFXNotificationRegistrar find:object:observer:enumerator:] + 2018
+    frame #27: 0x00007fffc839b76b CoreFoundation`_CFXNotificationPost + 667
+    frame #28: 0x00007fffc9ddd907 Foundation`-[NSNotificationCenter postNotificationName:object:userInfo:] + 66
+    frame #29: 0x00007fffc600374f AppKit`-[NSApplication _postDidFinishNotification] + 297
+    frame #30: 0x00007fffc60034b4 AppKit`-[NSApplication _sendFinishLaunchingNotification] + 208
+    frame #31: 0x00007fffc5ec6819 AppKit`-[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:] + 552
+    frame #32: 0x00007fffc5ec646b AppKit`-[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:] + 661
+    frame #33: 0x00007fffc9e28d8d Foundation`-[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:] + 290
+    frame #34: 0x00007fffc9e28c07 Foundation`_NSAppleEventManagerGenericHandler + 102
+    frame #35: 0x00007fffc922cf26 AE`aeDispatchAppleEvent(AEDesc const*, AEDesc*, unsigned int, unsigned char*) + 544
+    frame #36: 0x00007fffc922cc9d AE`dispatchEventAndSendReply(AEDesc const*, AEDesc*) + 39
+    frame #37: 0x00007fffc922cba9 AE`aeProcessAppleEvent + 312
+    frame #38: 0x00007fffc7939ddf HIToolbox`AEProcessAppleEvent + 55
+    frame #39: 0x00007fffc5ec1d1d AppKit`_DPSNextEvent + 1833
+    frame #40: 0x00007fffc663d7ee AppKit`-[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 2796
+    frame #41: 0x00007fffc5eb63db AppKit`-[NSApplication run] + 926
+    frame #42: 0x00007fffc5e80e0e AppKit`NSApplicationMain + 1237
+    frame #43: 0x0000000104f0c84a
+    frame #44: 0x0000000104f0681d
+    frame #45: 0x0000000100e03e84 電車賃of飯島`mono_jit_runtime_invoke(method=<unavailable>, obj=<unavailable>, params=0x00007fff5ef12368, exc=0x00007fff5ef11d48, error=<unavailable>) at mini-runtime.c:2533 [opt]
+    frame #46: 0x0000000100ec97c8 電車賃of飯島`do_runtime_invoke(method=0x00007f9eb3701ae8, obj=0x0000000000000000, params=0x00007fff5ef12368, exc=0x0000000000000000, error=0x00007fff5ef123a8) at object.c:2860 [opt]
+    frame #47: 0x0000000100eccced 電車賃of飯島`do_exec_main_checked [inlined] mono_runtime_invoke_checked(method=<unavailable>, obj=<unavailable>, error=0x00007fff5ef123a8) at object.c:3018 [opt]
+    frame #48: 0x0000000100ecccac 電車賃of飯島`do_exec_main_checked(method=0x00007f9eb3701ae8, args=<unavailable>, error=0x00007fff5ef123a8) at object.c:4680 [opt]
+    frame #49: 0x0000000100d6992f 電車賃of飯島`mono_jit_exec(domain=<unavailable>, assembly=<unavailable>, argc=2, argv=0x0000600000059068) at driver.g.c:1037 [opt]
+    frame #50: 0x0000000100d6bf58 電車賃of飯島`mono_main [inlined] main_thread_handler at driver.g.c:1106 [opt]
+    frame #51: 0x0000000100d6bf25 電車賃of飯島`mono_main(argc=5, argv=<unavailable>) at driver.g.c:2215 [opt]
+    frame #52: 0x0000000100d10076 電車賃of飯島`::xamarin_main(argc=2, argv=0x00007fff5ef126a8, is_extension=false) at launcher.m:614
+    frame #53: 0x0000000100d10d94 電車賃of飯島`main(argc=2, argv=0x00007fff5ef126a8) at launcher.m:625
+    frame #54: 0x00007fffddf76235 libdyld.dylib`start + 1
+    frame #55: 0x00007fffddf76235 libdyld.dylib`start + 1
+
+  thread #2
+    frame #0: 0x00007fffde0a544e libsystem_kernel.dylib`__workq_kernreturn + 10
+    frame #1: 0x00007fffde18f621 libsystem_pthread.dylib`_pthread_wqthread + 1426
+    frame #2: 0x00007fffde18f07d libsystem_pthread.dylib`start_wqthread + 13
+
+  thread #3
+    frame #0: 0x00007fffde0a544e libsystem_kernel.dylib`__workq_kernreturn + 10
+    frame #1: 0x00007fffde18f48e libsystem_pthread.dylib`_pthread_wqthread + 1023
+    frame #2: 0x00007fffde18f07d libsystem_pthread.dylib`start_wqthread + 13
+
+  thread #4
+    frame #0: 0x00007fffde18f070 libsystem_pthread.dylib`start_wqthread
+
+  thread #5, name = 'SGen worker'
+    frame #0: 0x00007fffde0a4bf2 libsystem_kernel.dylib`__psynch_cvwait + 10
+    frame #1: 0x00007fffde1907fa libsystem_pthread.dylib`_pthread_cond_wait + 712
+    frame #2: 0x0000000100f828de 電車賃of飯島`thread_func [inlined] mono_os_cond_wait(mutex=<unavailable>) at mono-os-mutex.h:146 [opt]
+    frame #3: 0x0000000100f828cb 電車賃of飯島`thread_func(thread_data=0x0000000000000000) at sgen-thread-pool.c:129 [opt]
+    frame #4: 0x00007fffde18f93b libsystem_pthread.dylib`_pthread_body + 180
+    frame #5: 0x00007fffde18f887 libsystem_pthread.dylib`_pthread_start + 286
+    frame #6: 0x00007fffde18f08d libsystem_pthread.dylib`thread_start + 13
+
+  thread #6, name = 'Finalizer'
+    frame #0: 0x00007fffde09d386 libsystem_kernel.dylib`semaphore_wait_trap + 10
+    frame #1: 0x0000000100e6611f 電車賃of飯島`finalizer_thread [inlined] mono_os_sem_wait(flags=MONO_SEM_FLAGS_ALERTABLE) at mono-os-semaphore.h:90 [opt]
+    frame #2: 0x0000000100e66114 電車賃of飯島`finalizer_thread at mono-coop-semaphore.h:40 [opt]
+    frame #3: 0x0000000100e66108 電車賃of飯島`finalizer_thread(unused=<unavailable>) at gc.c:907 [opt]
+    frame #4: 0x0000000100f14c00 電車賃of飯島`start_wrapper [inlined] start_wrapper_internal at threads.c:837 [opt]
+    frame #5: 0x0000000100f14ae5 電車賃of飯島`start_wrapper(data=0x0000600000266cc0) at threads.c:889 [opt]
+    frame #6: 0x0000000100f9a2cd 電車賃of飯島`inner_start_thread(data=0x000060000005b810) at mono-threads.c:1170 [opt]
+    frame #7: 0x00007fffde18f93b libsystem_pthread.dylib`_pthread_body + 180
+    frame #8: 0x00007fffde18f887 libsystem_pthread.dylib`_pthread_start + 286
+    frame #9: 0x00007fffde18f08d libsystem_pthread.dylib`thread_start + 13
+
+  thread #7, name = 'Debugger agent'
+    frame #0: 0x00007fffde0a4df6 libsystem_kernel.dylib`__recvfrom + 10
+    frame #1: 0x0000000100d5ed5e 電車賃of飯島`socket_transport_recv(buf=0x000070000678dce5, len=11) at debugger-agent.c:1143 [opt]
+    frame #2: 0x0000000100d49166 電車賃of飯島`debugger_thread [inlined] transport_recv(len=11) at debugger-agent.c:1549 [opt]
+    frame #3: 0x0000000100d49150 電車賃of飯島`debugger_thread(arg=<unavailable>) at debugger-agent.c:10157 [opt]
+    frame #4: 0x0000000100f9a2cd 電車賃of飯島`inner_start_thread(data=0x000060000005b8d0) at mono-threads.c:1170 [opt]
+    frame #5: 0x00007fffde18f93b libsystem_pthread.dylib`_pthread_body + 180
+    frame #6: 0x00007fffde18f887 libsystem_pthread.dylib`_pthread_start + 286
+    frame #7: 0x00007fffde18f08d libsystem_pthread.dylib`thread_start + 13
+
+  thread #8
+    frame #0: 0x00007fffde0a544e libsystem_kernel.dylib`__workq_kernreturn + 10
+    frame #1: 0x00007fffde18f621 libsystem_pthread.dylib`_pthread_wqthread + 1426
+    frame #2: 0x00007fffde18f07d libsystem_pthread.dylib`start_wqthread + 13
+(lldb) detach
+
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+Process 29112 detached
+(lldb) quit

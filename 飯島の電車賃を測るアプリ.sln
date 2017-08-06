@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "飯島の電車賃を測るアプリ", "飯島の電車賃を測るアプリ\飯島の電車賃を測るアプリ.csproj", "{7410979F-5AFA-42F4-8CE5-F526E3A0067D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7410979F-5AFA-42F4-8CE5-F526E3A0067D}.Debug|x86.ActiveCfg = Debug|x86
+		{7410979F-5AFA-42F4-8CE5-F526E3A0067D}.Debug|x86.Build.0 = Debug|x86
+		{7410979F-5AFA-42F4-8CE5-F526E3A0067D}.Release|x86.ActiveCfg = Release|x86
+		{7410979F-5AFA-42F4-8CE5-F526E3A0067D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

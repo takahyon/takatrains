@@ -1,0 +1,12 @@
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/bin/Debug/電車賃of飯島.exe
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/bin/Debug/電車賃of飯島.pdb
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/actool/partial-info.plist
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/actool/asset-manifest.plist
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/actool/bundle/AppIcon.icns
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/ibtool-manifests/MainMenu.nib
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/ibtool-manifests/MainWindow.nib
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/ibtool/MainMenu.nib
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/ibtool/MainWindow.nib
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/飯島の電車賃を測るアプリ.csproj.CoreCompileInputs.cache
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/電車賃of飯島.exe
+/Users/takamasa/Projects/飯島の電車賃を測るアプリ/飯島の電車賃を測るアプリ/obj/x86/Debug/電車賃of飯島.pdb
