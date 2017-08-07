@@ -1,4 +1,6 @@
 ﻿using System;
+
+
 namespace 飯島の電車賃を測るアプリ
 {
     public class traincost
@@ -23,6 +25,7 @@ namespace 飯島の電車賃を測るアプリ
             Console.Write($"今月の電車賃は平日"+ weekday +"日で"+weekdayto+"円.("+$"{weekday}x{ train}+{ weekday}x{ bikePark})");
             Console.WriteLine($"休日" + offday + "日で" + offdayto+"円, ("+$"{offday}x{train}+{offday}x{bikePark})" );
 			Console.WriteLine("合計は" + total + "円です！");
+
 		}
     }
 }

@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CDF39B0000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F00CD70000000000000000 /* Cocoa.framework */; };
+		EDFD4B1A0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751F64560000000000000000 /* Foundation.framework */; };
+		E4D91D230000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB365F0000000000000000 /* Assets.xcassets */; };
+		A9E3700C0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 310589480000000000000000 /* Info.plist */; };
+		628E73B40000000000000000 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B08CF00000000000000000 /* MainMenu.xib */; };
+		B970F10D0000000000000000 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40930A490000000000000000 /* MainWindow.xib */; };
+		5B0694400000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = E228AD7C0000000000000000 /* AppDelegate.h */; };
+		8FEDA82E0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170FC16A0000000000000000 /* AppDelegate.m */; };
+		D318EE940000000000000000 /* MainWindowController.h in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B07D00000000000000000 /* MainWindowController.h */; };
+		F0EAA20D0000000000000000 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CBB490000000000000000 /* MainWindowController.m */; };
+		F448CB8F0000000000000000 /* MainWindow.h in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AE4CB0000000000000000 /* MainWindow.h */; };
+		9EAF9CBF0000000000000000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1B5FB0000000000000000 /* MainWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1C2B0810000000000000000 /* 飯島の電車賃を測るアプリ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "飯島の電車賃を測るアプリ.app"; path = "飯島の電車賃を測るアプリ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F00CD70000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		751F64560000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		6BFB365F0000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		310589480000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		E9B08CF00000000000000000 /* MainMenu.xib */ = {isa = PBXFileReference; name = "MainMenu.xib"; path = "MainMenu.xib"; sourceTree = "<group>"; };
+		40930A490000000000000000 /* MainWindow.xib */ = {isa = PBXFileReference; name = "MainWindow.xib"; path = "MainWindow.xib"; sourceTree = "<group>"; };
+		E228AD7C0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		170FC16A0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		5A3B07D00000000000000000 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindowController.h"; path = "MainWindowController.h"; sourceTree = "<group>"; };
+		780CBB490000000000000000 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindowController.m"; path = "MainWindowController.m"; sourceTree = "<group>"; };
+		7B6AE4CB0000000000000000 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindow.h"; path = "MainWindow.h"; sourceTree = "<group>"; };
+		25D1B5FB0000000000000000 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindow.m"; path = "MainWindow.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805337A30000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CDF39B0000000000000000 /* Cocoa.framework in Frameworks */,
+				EDFD4B1A0000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEBD94700000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				522876B90000000000000000 /* 飯島の電車賃を測るアプリ */,
+				B092D3860000000000000000 /* Frameworks */,
+				CE8555A00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8555A00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C2B0810000000000000000 /* 飯島の電車賃を測るアプリ.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		B092D3860000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				751F64560000000000000000 /* Foundation.framework */,
+				68F00CD70000000000000000 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		522876B90000000000000000 /* 飯島の電車賃を測るアプリ */ = {
+			isa = PBXGroup;
+			children = (
+				E228AD7C0000000000000000 /* AppDelegate.h */,
+				6BFB365F0000000000000000 /* Assets.xcassets */,
+				310589480000000000000000 /* Info.plist */,
+				E9B08CF00000000000000000 /* MainMenu.xib */,
+				7B6AE4CB0000000000000000 /* MainWindow.h */,
+				40930A490000000000000000 /* MainWindow.xib */,
+				5A3B07D00000000000000000 /* MainWindowController.h */,
+				C8FE720E0000000000000000 /* Supporting Files */,
+			);
+			name = "飯島の電車賃を測るアプリ";
+			sourceTree = "<group>";
+		};
+		C8FE720E0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				170FC16A0000000000000000 /* AppDelegate.m */,
+				25D1B5FB0000000000000000 /* MainWindow.m */,
+				780CBB490000000000000000 /* MainWindowController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6C335FD0000000000000000 /* 飯島の電車賃を測るアプリ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5C64CD0000000000000000 /* Build configuration list for PBXNativeTarget "飯島の電車賃を測るアプリ" */;
+			buildPhases = (
+				63CAD2B30000000000000000 /* Sources */,
+				805337A30000000000000000 /* Frameworks */,
+				720F052B0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "飯島の電車賃を測るアプリ";
+			productName = "飯島の電車賃を測るアプリ";
+			productReference = D1C2B0810000000000000000 /* 飯島の電車賃を測るアプリ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32570980000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6A8725B70000000000000000 /* Build configuration list for PBXProject "飯島の電車賃を測るアプリ" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEBD94700000000000000000;
+			productRefGroup = CE8555A00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6C335FD0000000000000000 /* 飯島の電車賃を測るアプリ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720F052B0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D91D230000000000000000 /* Assets.xcassets in Resources */,
+				A9E3700C0000000000000000 /* Info.plist in Resources */,
+				628E73B40000000000000000 /* MainMenu.xib in Resources */,
+				B970F10D0000000000000000 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63CAD2B30000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0694400000000000000000 /* AppDelegate.h in Sources */,
+				8FEDA82E0000000000000000 /* AppDelegate.m in Sources */,
+				D318EE940000000000000000 /* MainWindowController.h in Sources */,
+				F0EAA20D0000000000000000 /* MainWindowController.m in Sources */,
+				F448CB8F0000000000000000 /* MainWindow.h in Sources */,
+				9EAF9CBF0000000000000000 /* MainWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBA8E4F0000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = MonoMac;
+		};
+		98B1E6A10000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "飯島の電車賃を測るアプリ";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoMac;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A8725B70000000000000000 /* Build configuration list for PBXProject "飯島の電車賃を測るアプリ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBA8E4F0000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+		3C5C64CD0000000000000000 /* Build configuration list for PBXNativeTarget "飯島の電車賃を測るアプリ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B1E6A10000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B32570980000000000000000 /* Project object */;
+}

@@ -8,7 +8,6 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController">
             <connections>
-                <outlet property="Click" destination="R6W-5P-5ga" id="mEI-Yc-0j6"/>
                 <outlet property="offdaycom" destination="xR2-Vc-iPZ" id="G3U-cc-J3y"/>
                 <outlet property="weekdaycom" destination="YOC-q9-yLk" id="jT1-Je-7PU"/>
                 <outlet property="window" destination="2" id="6"/>
@@ -42,17 +41,6 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R6W-5P-5ga" customClass="NSPopUpButton">
-                        <rect key="frame" x="194" y="159" width="218" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ltR-ww-ub4">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="ClickedButton:" target="-2" id="DWV-1J-EIA"/>
-                        </connections>
-                    </button>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOC-q9-yLk" customClass="NSComboBox1">
                         <rect key="frame" x="255" y="274" width="96" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
